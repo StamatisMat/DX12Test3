@@ -42,21 +42,6 @@ if(WIN32)
     )
 endif()
 
-# ===============
-# DirectX Headers
-# ===============
-
-#FetchContent_Declare(
-#    directx_headers
-#    GIT_REPOSITORY https://github.com/microsoft/DirectX-Headers.git
-#    GIT_TAG     v1.618.5
-#)
-#FetchContent_MakeAvailable(directx_headers)
-#
-#set(DIRECTX_HEADERS_ROOT "${directx_headers_SOURCE_DIR}/include"
-#
-#target_include_directories(D3D12Test3 PRIVATE "${DIRECTX_HEADERS_ROOT}")
-
 # ==========
 # D3D12 SDK
 # ==========
